@@ -1,0 +1,19 @@
+INSERT INTO `carmy`.`item` (`IMAGE`,`NAME`, `NSN`, `QUANTITY`,`FIIG`, `INC`, `CRITICALY`, `TYPE_II`, `DEMIL`, `DATE`, `ESD`, `PMIC`, `ADPEC`, `HMIC`, `HCC`, `ENAC`, `SUPPLIER`, `CAGE`, `PART_NUMBER`, `STAT`, `RNCC`, `RNVC`, `DAC`, `RNAAC`, `SADC`, `MSDS`, `MOE`, `USC`, `AAC`, `SOS`, `UI`, `UNIT_PRICE`, `QUP`, `CIIC`, `SLC`, `MGT_CTRL`, `REP`, `SUPPLY_PACKAGE_TYPE`, `SPECIAL_FEATURES`, `DEFINITION`) VALUES ('images/products/meatBallsInMarinara.jpg',
+'Meatballs In Marinara Sauce', '8940015454861', '10','T113-J', '7777', 'x', '4', 'a', '2006-15-11', 'a', 'a', '0', 'n', '', '', 'United States Dept of Agriculture', '63298', 'PCR-B-015', 'a', '5', '9', '3', 'zz', '', '', 'ds', 'i', 'r', 'sms', 'ea', '0.95', '0', 'u', '7', '', '', 'Special Dietary Foods and Food Specialty Preparations', '', 'Note-Subsistance items which are specifically prepared for dietetic use are classified in Class 8940. Nondietetic foods, even though they bear the same approved item names as corresponding dietetic foods, are classified in Classes other than 8940.');
+
+
+INSERT INTO `carmy`.`item` (`IMAGE`,`NAME`, `NSN`, `QUANTITY`,`FIIG`, `INC`, `CRITICALY`, `TYPE_II`, `DEMIL`, `DATE`, `ESD`, `PMIC`, `ADPEC`, `HMIC`, `HCC`, `ENAC`, `SUPPLIER`, `CAGE`, `PART_NUMBER`, `STAT`, `RNCC`, `RNVC`, `DAC`, `RNAAC`, `SADC`, `MSDS`, `MOE`, `USC`, `AAC`, `SOS`, `UI`, `UNIT_PRICE`, `QUP`, `CIIC`, `SLC`, `MGT_CTRL`, `REP`, `SUPPLY_PACKAGE_TYPE`, `SPECIAL_FEATURES`, `DEFINITION`) VALUES ('images/products/beans.jpg',
+'BEANS,LIMA,DRY', '8915005302173', '20','T113-J', '2153', 'x', '4', 'a', ' 	2003-06-12', ')', 'a', '0', 'n', '', '', 'Defense Supply Agency', '54027', 'BEANS,LIMA', 'a', '3', '1', '4', 'zz', '', '', 'ds', 'i', 'h', 'sms', 'lb', '1.00', '1', 'u', '0', '', '', '	Fruits and Vegetables', '', 'Note-Subsistance items which are specifically prepared for dietetic use are classified in Class 8940. Nondietetic foods, even though they bear the same approved item names as corresponding dietetic foods, are classified in Classes other than 8940.');
+
+
+INSERT INTO `carmy`.`item` (`IMAGE`,`NAME`, `NSN`, `QUANTITY`,`FIIG`, `INC`, `CRITICALY`, `TYPE_II`, `DEMIL`, `DATE`, `ESD`, `PMIC`, `ADPEC`, `HMIC`, `HCC`, `ENAC`, `SUPPLIER`, `CAGE`, `PART_NUMBER`, `STAT`, `RNCC`, `RNVC`, `DAC`, `RNAAC`, `SADC`, `MSDS`, `MOE`, `USC`, `AAC`, `SOS`, `UI`, `UNIT_PRICE`, `QUP`, `CIIC`, `SLC`, `MGT_CTRL`, `REP`, `SUPPLY_PACKAGE_TYPE`, `SPECIAL_FEATURES`, `DEFINITION`) VALUES ('images/products/cobblerCherry.jpg',
+'Cobbler,Cherry Blueberry', '8920015253546', '36','', '7777', 'x', '4', 'a', ' 	2004-11-04', '', 'a', '0', 'n', '', '', 'United States Dept Of Agriculture', '63298', 'PCR-C-058', 'a', '3', '1', '3', 'zz', '', '', 'ds', 'i', 'h', 'sms', 'pg', '0.30', '0', 'u', '7', '', '', 'Bakery and Cereal Products', '', 'Note-Subsistance items which are specifically prepared for dietetic use are classified in Class 8940. Nondietetic foods, even though they bear the same approved item names as corresponding dietetic foods, are classified in Classes other than 8940.');
+
+
+
+INSERT INTO `carmy`.`soldiers` (`name`,`image`, `service_number`, `rank`,`unit`, `date_of_birth`, `nationality`, `branch`) VALUES ('Vorderbruggen Adrianna' ,'images/soldiers/Vorderbruggen Adrianna.jpg','1903', 'Major', 'Air Force Office of Special Investigations, 9th Field Investigations Squadron', '1981-06-12', 'German', 'U.S, Air Force')
+
+
+INSERT INTO `carmy`.`soldiers` (`name`,`image`, `service_number`, `rank`,`unit`, `date_of_birth`, `nationality`, `branch`) VALUES ('Roland, Matthew D.' ,'images/soldiers/Official-Photo-Berens-May-2014.jpg','1703', 'Captain', '23rd Special Tactics Squadron', '1984-07-12', 'American', 'U.S. Air Force')
+
+

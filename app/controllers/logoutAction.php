@@ -2,11 +2,10 @@
 	class logoutAction extends Controller{
  public function index(){
 	session_start();
-	if(!empty($_SESSION['user']))
-	{
-		$_SESSION['user']='';
+	
+		$_SESSION['user']='NO';
 		session_destroy();
-	}
+	
 	header("location:login");
 	}
 }

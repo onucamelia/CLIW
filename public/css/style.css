@@ -221,3 +221,25 @@ font-weight: 700;
 #logoutAction{
 	display: block;
 }
+
+/*SOLDIERS*/
+
+.soldiers .img-responsive{
+	height: 200px;
+}
+#soldierImage {
+    height: 250px;
+    float: left;
+}
+
+#qrcode {
+ width:160px;
+ height: 270px;
+  margin-top:15px;
+}
+.well-panel .btn.btn-link{
+	padding-left: 0px !important;
+}
+a{
+	color: white !important;
+}

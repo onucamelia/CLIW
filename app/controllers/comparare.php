@@ -24,16 +24,17 @@ $_SESSION['user']='';
 $text='';
 $text = $qrcode->text(); 
 $image='';
-
-$query=mysql_query("SELECT NAME FROM item WHERE NSN = '$text'");
+$query=mysql_query("SELECT name FROM users WHERE id = '$text'");
 $num_rows = mysql_num_rows($query);
+
 
 if($num_rows>0)
 {
-	$image=mysql_result(mysql_query("SELECT NAME FROM item WHERE NSN = '$text'"),0,'NAME') or die( "Unable to show field"); 
+	$image=mysql_result(mysql_query("SELECT name FROM users WHERE id = '$text'"),0,'name') or die( "Unable to show field"); 
 	$_SESSION['user']=$image;
 	print json_encode($_SESSION['user']);
-	//header("location:main");
+
+header("location:main");
 }
 
 else
